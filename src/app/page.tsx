@@ -2,6 +2,8 @@ import StaggerAnimation from '../components/StaggerAnimation'
 import UsinguseMottionValueHook from '../components/UsinguseMotionValueHook';
 import UsinguseTransformHook from '../components/UsinguseTransformHook';
 import UsinguseScrollHook from '../components/UsinguseScrollHook';
+import BouncingCircle from '../components/BouncingCircle';
+import SpinningIcon from '../components/SpinningIcon';
 export default function Home() {
   
   return (
@@ -10,6 +12,8 @@ export default function Home() {
     <UsinguseMottionValueHook />
     <UsinguseTransformHook />
     <UsinguseScrollHook />
+    <BouncingCircle />
+    <SpinningIcon />
      </div>
   );
 }
