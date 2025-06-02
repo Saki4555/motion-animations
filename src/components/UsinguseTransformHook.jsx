@@ -10,8 +10,8 @@ const UsinguseTransformHook = () => {
 
   return (
     <div>
-      <h2 className="text-5xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text inline-block">
-        useMotionValueHook
+      <h2 className="text-4xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text inline-block">
+        useTransform Hook
       </h2>
       <motion.div style={{x, y, backgroundColor}} drag dragConstraints={ {top: -20, left: 0, right: 200, bottom: 20 }} className='bg-slate-300 w-20 h-20' />
     </div>

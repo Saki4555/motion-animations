@@ -25,8 +25,8 @@ const UsinguseMotionValueHook = () => {
       dragConstraints={{top: 50 , left:50, right: 50, bottom: 50}}
       className="bg-slate-400 w-20 h-20 rounded-full"
     /> */}
-        <h2 className="text-5xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text inline-block">
-        useMotionValueHook
+        <h2 className="text-4xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text inline-block">
+        useMotionValue Hook
       </h2>
       <motion.div style={{ scaleX: scale }} className="bg-slate-400 mb-2  w-20 h-20" />
       <input
