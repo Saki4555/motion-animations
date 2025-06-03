@@ -4,8 +4,8 @@ import * as motion from "motion/react-client";
 const MovingRotation = () => {
   return (
     <div>
-        <h2 className="text-4xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-8 text-transparent bg-clip-text inline-block">
-       Bouncing Circle
+        <h2 className="text-3xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-8 text-transparent bg-clip-text inline-block">
+       Moving Rotation
       </h2>
       <motion.div
         whileInView={{ x: 200, rotate: 360, scale: 1.5 }}

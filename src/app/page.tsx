@@ -8,7 +8,8 @@ import MovingRotation from '../components/simple-transformations/MovingRotation'
 import SkewedRectangle from '../components/simple-transformations/SkewedRectangle';
 import FadeComponent from '../components/simple-transitions/FadeComponent';
 import SidebarSample from '../components/simple-transitions/SidebarSample';
-import ModalSample from '../components/simple-transitions/ModalSample'
+import ModalSample from '../components/simple-transitions/ModalSample';
+import SimpleToast from '../components/simple-transitions/SimpleToast';
 export default function Home() {
   
   return (
@@ -24,6 +25,7 @@ export default function Home() {
     <FadeComponent />
     <SidebarSample />
     <ModalSample />
+    <SimpleToast />
      </div>
   );
 }

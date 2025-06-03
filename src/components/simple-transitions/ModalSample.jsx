@@ -8,8 +8,8 @@ const ModalSample = () => {
 
   return (
     <div>
-        <h2 className="text-3xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text ">
-        Sidebar Sample
+        <h2 className="text-3xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent inline-block bg-clip-text ">
+        Modal Sample
       </h2>
     <AnimatePresence>  {isOpen && (
         <>
@@ -31,7 +31,7 @@ const ModalSample = () => {
               </h3>
               <button
                 onClick={() => setIsOpen(false)}
-                className="rotate-45 cursor-pointer absolute text-red-500 top-0 right-2 text-4xl font-semibold"
+                className="rotate-45  cursor-pointer absolute text-red-500 top-0 right-2 text-4xl font-semibold"
               >
                 +
               </button>
@@ -41,7 +41,7 @@ const ModalSample = () => {
       )}</AnimatePresence>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="px-4 py-2 bg-blue-500 text-white rounded-lg"
+        className="px-4 py-2 block bg-blue-500 text-white rounded-lg"
       >
         Show Modal
       </button>
