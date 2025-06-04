@@ -10,6 +10,12 @@ import FadeComponent from '../components/simple-transitions/FadeComponent';
 import SidebarSample from '../components/simple-transitions/SidebarSample';
 import ModalSample from '../components/simple-transitions/ModalSample';
 import SimpleToast from '../components/simple-transitions/SimpleToast';
+import PulsatingEffect from '../components/simple-keyframes/PulsatingEffect';
+import ColorChange from '../components/simple-keyframes/ColorChange';
+import SlidingText from '../components/simple-keyframes/SlidingText';
+import ZigZag from '../components/simple-keyframes/ZigZag';
+import WaveEffect from '../components/simple-keyframes/WaveEffect';
+import TooltipVariant from '../components/simple-variants/TooltipVariant';
 export default function Home() {
   
   return (
@@ -26,6 +32,12 @@ export default function Home() {
     <SidebarSample />
     <ModalSample />
     <SimpleToast />
+    <PulsatingEffect />
+    <ColorChange />
+    <SlidingText />
+    <ZigZag />
+    <WaveEffect />
+    <TooltipVariant />
      </div>
   );
 }
