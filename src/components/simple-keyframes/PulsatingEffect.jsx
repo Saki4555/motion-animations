@@ -4,7 +4,7 @@ const PulsatingEffect = () => {
   return (
     <div>
       <h2 className="text-3xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text inline-block">
-        Stagger Animation
+        Pulsating Effect
       </h2>
       <motion.button
         animate={{ scale: [1, 1.3, 1] }}

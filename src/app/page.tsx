@@ -16,6 +16,9 @@ import SlidingText from '../components/simple-keyframes/SlidingText';
 import ZigZag from '../components/simple-keyframes/ZigZag';
 import WaveEffect from '../components/simple-keyframes/WaveEffect';
 import TooltipVariant from '../components/simple-variants/TooltipVariant';
+import ToggleSwitch from '../components/simple-variants/ToggleSwitch';
+import DynamicList from '../components/simple-variants/DynamicLIst';
+
 export default function Home() {
   
   return (
@@ -38,6 +41,8 @@ export default function Home() {
     <ZigZag />
     <WaveEffect />
     <TooltipVariant />
+    <ToggleSwitch />
+    <DynamicList />
      </div>
   );
 }
