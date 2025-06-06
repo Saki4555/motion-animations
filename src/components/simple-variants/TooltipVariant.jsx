@@ -10,13 +10,13 @@ const TooltipVariant = () => {
   };
   return (
     <div>
-      <h2 className="text-3xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text ">
+      <h2 className="text-3xl font-bold leading-snug inline-block bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text ">
         Tooltip
       </h2>
       <button
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
-        className="px-4 py-2 bg-blue-500 text-white"
+        className="px-4 py-2 bg-blue-500 block text-white"
       >
         Hover Me
       </button>

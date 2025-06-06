@@ -1,5 +1,5 @@
 "use client";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
 import { useState } from "react";
 
 const SwipeableCard = () => {

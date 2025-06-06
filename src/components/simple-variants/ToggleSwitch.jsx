@@ -10,13 +10,13 @@ const ToggleSwitch = () => {
   };
   return (
     <div>
-      <h2 className="text-3xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text ">
-        Sidebar Sample
+      <h2 className="text-3xl inline-block font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text ">
+        Toggle Switch
       </h2>
 
       <div
         onClick={() => setIsOn(!isOn)}
-        className={`relative inline-block rounded-full w-36 h-16 ${
+        className={`relative  rounded-full w-36 h-16 ${
           isOn ? "bg-green-400" : "bg-slate-400"
         }`}
       >

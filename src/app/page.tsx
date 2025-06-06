@@ -19,6 +19,10 @@ import TooltipVariant from '../components/simple-variants/TooltipVariant';
 import ToggleSwitch from '../components/simple-variants/ToggleSwitch';
 import DynamicList from '../components/simple-variants/DynamicLIst';
 import SwipeableCard from '../components/simple-gestures/SwipeableCard';
+import RotateOnDrag from '../components/simple-gestures/RotateOnDrag';
+import ColorChangeOnTap from '../components/simple-gestures/ColorChangeonTap';
+import LongPressToChangeSize from '../components/simple-gestures/LongPressToChangeColor.jsx';
+import GestureBaseImageSwipe from '../components/simple-gestures/GestureBaseImageSwipe'
 
 export default function Home() {
   
@@ -45,6 +49,10 @@ export default function Home() {
     <ToggleSwitch />
     <DynamicList />
     <SwipeableCard />
+    <RotateOnDrag />
+    <ColorChangeOnTap />
+    <LongPressToChangeSize />
+    <GestureBaseImageSwipe />
      </div>
   );
 }
