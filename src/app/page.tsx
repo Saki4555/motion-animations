@@ -18,6 +18,7 @@ import WaveEffect from '../components/simple-keyframes/WaveEffect';
 import TooltipVariant from '../components/simple-variants/TooltipVariant';
 import ToggleSwitch from '../components/simple-variants/ToggleSwitch';
 import DynamicList from '../components/simple-variants/DynamicLIst';
+import SwipeableCard from '../components/simple-gestures/SwipeableCard';
 
 export default function Home() {
   
@@ -43,6 +44,7 @@ export default function Home() {
     <TooltipVariant />
     <ToggleSwitch />
     <DynamicList />
+    <SwipeableCard />
      </div>
   );
 }

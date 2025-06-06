@@ -6,7 +6,7 @@ const UsinguseScrollHook = () => {
     const ref = useRef(null)
     const {scrollY} = useScroll({target: ref});
     useMotionValueEvent(scrollY, 'change', (latest) => {
-        console.log(latest);
+        // console.log(latest);
     })
 
     const scale = useTransform(scrollY, [520, 800], [1, 0.7])
