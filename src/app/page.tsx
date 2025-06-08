@@ -23,6 +23,7 @@ import RotateOnDrag from '../components/simple-gestures/RotateOnDrag';
 import ColorChangeOnTap from '../components/simple-gestures/ColorChangeonTap';
 import LongPressToChangeSize from '../components/simple-gestures/LongPressToChangeColor.jsx';
 import GestureBaseImageSwipe from '../components/simple-gestures/GestureBaseImageSwipe'
+import StaggeredTextReveal from '../components/simple-staggers/StaggeredTextReveal';
 
 export default function Home() {
   
@@ -53,6 +54,7 @@ export default function Home() {
     <ColorChangeOnTap />
     <LongPressToChangeSize />
     <GestureBaseImageSwipe />
+    <StaggeredTextReveal />
      </div>
   );
 }

@@ -13,7 +13,7 @@ const SwipeableCard = () => {
   return (
     <div>
       <h2 className="text-4xl font-bold leading-snug  bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-4 text-transparent bg-clip-text inline-block">
-        Swipe
+        Swipe and Remove
       </h2>
      
         <motion.div
