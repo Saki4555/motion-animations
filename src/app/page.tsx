@@ -24,6 +24,11 @@ import ColorChangeOnTap from '../components/simple-gestures/ColorChangeonTap';
 import LongPressToChangeSize from '../components/simple-gestures/LongPressToChangeColor.jsx';
 import GestureBaseImageSwipe from '../components/simple-gestures/GestureBaseImageSwipe'
 import StaggeredTextReveal from '../components/simple-staggers/StaggeredTextReveal';
+import DraggableBoxWithPosition from '../components/useMotionValue-animations/DraggableBoxWithPosition';
+import HoverLinkedScale from '../components/useMotionValue-animations/HoverLinkedScale';
+import DynamicRotation from '../components/useMotionValue-animations/DynamicRotation';
+import DynamicPosition from '../components/useMotionValue-animations/DynamicPosition';
+import CardFlip from '../components/whileInView-Animations/CardFlip';
 
 export default function Home() {
   
@@ -55,6 +60,11 @@ export default function Home() {
     <LongPressToChangeSize />
     <GestureBaseImageSwipe />
     <StaggeredTextReveal />
+    <DraggableBoxWithPosition />
+    <HoverLinkedScale />
+    <DynamicRotation />
+    <DynamicPosition />
+    <CardFlip />
      </div>
   );
 }
