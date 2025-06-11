@@ -29,6 +29,7 @@ import HoverLinkedScale from '../components/useMotionValue-animations/HoverLinke
 import DynamicRotation from '../components/useMotionValue-animations/DynamicRotation';
 import DynamicPosition from '../components/useMotionValue-animations/DynamicPosition';
 import CardFlip from '../components/whileInView-Animations/CardFlip';
+import ScrollIndicator from '../components/ScrollIndicator';
 
 export default function Home() {
   
@@ -65,6 +66,7 @@ export default function Home() {
     <DynamicRotation />
     <DynamicPosition />
     <CardFlip />
+    <ScrollIndicator />
      </div>
   );
 }

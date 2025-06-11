@@ -1,42 +1,4 @@
-// 'use client';
-// import { motion } from "motion/react";
-// import { useState } from "react";
 
-// const CardFlip = () => {
-//   const [flipped, setFlipped] = useState(false);
-
-//   return (
-//     <div className="mt-28 flex flex-col items-center">
-//       <h2 className="text-3xl font-bold leading-snug bg-gradient-to-r from-cyan-500 via-gray-200 to-yellow-400 mb-6 text-transparent bg-clip-text">
-//         Card Flip
-//       </h2>
-
-//       <div
-//         className="w-64 h-64 perspective-[1000px]"
-//         onMouseEnter={() => setFlipped(true)}
-//         onMouseLeave={() => setFlipped(false)}
-//       >
-//         <motion.div
-//           animate={{ rotateY: flipped ? 180 : 0 }}
-//           transition={{ duration: 0.8 }}
-//           className="relative w-full h-full transform-3d"
-//         >
-//           {/* Front Side */}
-//           <div className="absolute w-full h-full bg-slate-700 text-white text-lg font-medium flex items-center justify-center rounded-xl backface-hidden">
-//             Front
-//           </div>
-
-//           {/* Back Side */}
-//           <div className="absolute w-full h-full bg-indigo-600 text-white text-lg font-medium flex items-center justify-center rounded-xl rotate-y-180 backface-hidden">
-//             Back
-//           </div>
-//         </motion.div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default CardFlip;
 
 "use client";
 import { motion } from "motion/react";
