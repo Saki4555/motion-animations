@@ -30,6 +30,7 @@ import DynamicRotation from '../components/useMotionValue-animations/DynamicRota
 import DynamicPosition from '../components/useMotionValue-animations/DynamicPosition';
 import CardFlip from '../components/whileInView-Animations/CardFlip';
 import ScrollIndicator from '../components/ScrollIndicator';
+import Loader from '../components/Loader';
 
 export default function Home() {
   
@@ -67,6 +68,8 @@ export default function Home() {
     <DynamicPosition />
     <CardFlip />
     <ScrollIndicator />
+    <Loader />
+
      </div>
   );
 }
