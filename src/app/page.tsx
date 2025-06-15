@@ -31,6 +31,7 @@ import DynamicPosition from '../components/useMotionValue-animations/DynamicPosi
 import CardFlip from '../components/whileInView-Animations/CardFlip';
 import ScrollIndicator from '../components/ScrollIndicator';
 import Loader from '../components/Loader';
+import Carousel from '../components/Carousel';
 
 export default function Home() {
   
@@ -69,6 +70,7 @@ export default function Home() {
     <CardFlip />
     <ScrollIndicator />
     <Loader />
+    <Carousel />
 
      </div>
   );
